@@ -1,0 +1,30 @@
+{
+  "name": "n-body-simulation",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.117.3",
+    "@react-three/fiber": "^8.17.10",
+    "@react-three/postprocessing": "^2.16.3",
+    "leva": "^0.9.35",
+    "postprocessing": "^6.36.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0",
+    "uuid": "^13.0.0",
+    "zustand": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "vite": "^5.4.10"
+  }
+}
