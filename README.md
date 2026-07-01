@@ -8,7 +8,7 @@
 
 > *Gravity doesn't ask permission.*
 
-[**Launch the Simulator →**](https://gravitas-nu.vercel.app/simulation) · [Landing page](https://gravitas-nu.vercel.app)
+[**Launch the Simulator →**](https://gravitas-kappa.vercel.app/simulation) · [Landing page](https://gravitas-kappa.vercel.app)
 
 ![React](https://img.shields.io/badge/React-18-61dafb?logo=react&logoColor=black)
 ![Three.js](https://img.shields.io/badge/Three.js-r169-000?logo=three.js&logoColor=white)
