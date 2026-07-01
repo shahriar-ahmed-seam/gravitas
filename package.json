@@ -1,13 +1,35 @@
 {
-  "name": "n-body-simulation",
+  "name": "gravitas",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "Gravitas — a cinematic, physically-accurate 3D gravitational N-body simulator in the browser. RK4 physics, tidal disruption, accretion disks, Lagrange points and 15 preset scenarios.",
+  "license": "MIT",
+  "author": "Shahriar Ahmed",
+  "homepage": "https://github.com/shahriar-ahmed-seam/gravitas",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shahriar-ahmed-seam/gravitas.git"
+  },
+  "keywords": [
+    "n-body",
+    "gravity",
+    "physics-simulation",
+    "orbital-mechanics",
+    "3d",
+    "threejs",
+    "react-three-fiber",
+    "webgl",
+    "astronomy",
+    "rk4"
+  ],
   "scripts": {
+    "fetch:images": "node scripts/fetch-images.mjs",
     "dev": "vite",
+    "prebuild": "node scripts/fetch-images.mjs",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview --port 4173"
   },
   "dependencies": {
     "@react-three/drei": "^9.117.3",

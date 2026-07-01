@@ -142,7 +142,10 @@ function TimeControls() {
 
   return (
     <div className="hud-panel" style={{ minWidth: 210 }}>
-      <h3>Simulation Control</h3>
+      <h3 style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+        <span>Simulation Control</span>
+        <a href="/" title="Back to home" style={{ color: 'rgba(142,232,255,0.6)', textDecoration: 'none', fontSize: 11, fontWeight: 400 }}>⌂ Home</a>
+      </h3>
 
       <div style={{ display: 'flex', gap: 6, marginBottom: 10 }}>
         <button className={`hud-btn ${isPaused ? 'active' : ''}`} onClick={togglePause}>

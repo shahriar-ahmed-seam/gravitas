@@ -1,8 +1,25 @@
-# N-Body Gravitational Simulation
+<div align="center">
+
+<img src="public/favicon.svg" width="76" alt="Gravitas logo" />
+
+# ✦ Gravitas
+
+### A cinematic, physically-accurate 3D gravitational N-body simulator — in the browser.
 
 > *Gravity doesn't ask permission.*
 
-A cinematic, physically-accurate **3D gravitational N-body simulator** running entirely in the browser. Watch stars, planets, black holes, and asteroids orbit in full three-dimensional space — with tidal heating, Roche limit disruption, accretion disks, Doppler shifts, and more — rendered through WebGL pipeline and driven by a fourth-order Runge-Kutta integrator.
+[**Launch the Simulator →**](https://gravitas-nu.vercel.app/simulation) · [Landing page](https://gravitas-nu.vercel.app)
+
+![React](https://img.shields.io/badge/React-18-61dafb?logo=react&logoColor=black)
+![Three.js](https://img.shields.io/badge/Three.js-r169-000?logo=three.js&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5-646cff?logo=vite&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
+</div>
+
+Watch stars, planets, black holes and asteroids orbit in full three-dimensional space —
+with tidal heating, Roche-limit disruption, accretion disks, Doppler shifts and more —
+rendered through a WebGL pipeline and driven by a fourth-order Runge-Kutta integrator.
 
 ---
 
@@ -395,8 +412,8 @@ src/
 
 ```bash
 # Clone the repository
-git clone <repo-url>
-cd N-body-Simulation
+git clone https://github.com/shahriar-ahmed-seam/gravitas.git
+cd gravitas
 
 # Install dependencies
 npm install
